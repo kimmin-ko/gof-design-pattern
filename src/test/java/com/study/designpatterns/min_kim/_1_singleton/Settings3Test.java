@@ -24,7 +24,7 @@ class Settings3Test {
         Settings3 settings2 = constructor.newInstance();
 
         // then
-        assertThat(settings1).isNotEqualTo(settings2);
+        assertThat(settings1).isNotSameAs(settings2);
     }
 
     @Test
@@ -44,7 +44,7 @@ class Settings3Test {
         }
 
         // then
-        assertThat(settings1).isNotEqualTo(settings2);
+        assertThat(settings1).isNotSameAs(settings2);
     }
 
 }

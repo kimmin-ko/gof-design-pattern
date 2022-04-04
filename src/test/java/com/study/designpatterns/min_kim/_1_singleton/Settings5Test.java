@@ -13,24 +13,30 @@ class Settings5Test {
     @Test
     @DisplayName("자바의 실행 환경 정보를 알고있는 java.lang.Runtime 클래스는 싱글톤 패턴이 적용 되어있다.")
     void runtime() {
+        // given when
         Runtime runtime1 = Runtime.getRuntime();
         Runtime runtime2 = Runtime.getRuntime();
 
-        System.out.println(runtime1.maxMemory());
-        System.out.println(runtime1.freeMemory());
-        System.out.println(runtime1.availableProcessors());
+        System.out.println("max memory: " + runtime1.maxMemory());
+        System.out.println("free memory: " + runtime1.freeMemory());
+        System.out.println("available processors: " + runtime1.availableProcessors());
 
-        assertThat(runtime1).isEqualTo(runtime2);
+        // then
+        assertThat(runtime1).isSameAs(runtime2);
     }
 
     @Test
     @DisplayName("스프링 빈은 항상 동일한 객체를 반환한다.")
     void spring_bean() {
+        // given
         ApplicationContext ac = new AnnotationConfigApplicationContext(SpringConfig.class);
+
+        // when
         String hello1 = ac.getBean("hello", String.class);
         String hello2 = ac.getBean("hello", String.class);
 
-        assertThat(hello1 == hello2).isTrue();
+        // then
+        assertThat(hello1).isSameAs(hello2);
     }
 
 }
