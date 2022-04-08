@@ -3,10 +3,9 @@ package com.study.designpatterns.seungchan_moon._1_singleton;
 public class App {
 
     public static void main(String[] args) {
-        Settings_1 settings_1_1 = Settings_1.getInstance();
-        Settings_1 settings_1_2 = Settings_1.getInstance();
-        if (settings_1_2 == settings_1_1) {
-            System.out.println("같다");
-        }
+        System.out.println(Settings_1.getInstance() == Settings_1.getInstance());
+        System.out.println(Settings_2.getInstance() == Settings_2.getInstance());
+        System.out.println(Settings_3.getInstance() == Settings_3.getInstance());
+        System.out.println(Settings_4.getInstance() == Settings_4.getInstance());
     }
 }
