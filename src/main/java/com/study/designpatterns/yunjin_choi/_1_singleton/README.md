@@ -115,3 +115,33 @@ public class  StaticClass {
 Lazy Loading 도 가능한 코드가 된다. Double checking Locking 보다 덜 복잡하다.
 
 
+---
+
+
+## 싱글톤 구현을 깨트리는 방법
+
+### 🔹 리플렉션. [Sample 소스](./ReflectionSample.java)
+
+리플렉션은 막을 방법이 없음. 
+
+### 🔹 직렬화 & 역 직렬화. [Sample 소스](./SerializationDeserializationSample.java)
+
+직렬화 & 역직렬화를 막는방법으로는 readResolve()를 구현한다.
+
+### 🔹 Enum을 사용한다
+
+리플렉션 사용시 `Cannot reflectively create enum objects` 에러 발생 .
+
+단점은 enum을 사용하게 되면 미리 만들어진다. 쓰는 순간 로딩하도록 만들 수 없다.
+
+
+
+
+
+
+
+
+
+
+
+
