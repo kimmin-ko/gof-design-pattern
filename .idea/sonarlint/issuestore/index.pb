@@ -11,8 +11,6 @@ Ksrc/main/java/com/study/designpatterns/seungchan_moon/_1_singleton/App.java,0\
 Lsrc/main/java/com/study/designpatterns/geunho_hong/_2_factorymethod/App.java,f\b\fbbfc4ebc345c898485e3c6bede65289afa020b4
 x
 Hsrc/main/java/com/study/designpatterns/geunho_hong/_1_singleton/App.java,3\7\37305fc897a72c26e8792a8f770ef6294de7a9f4
-x
-Hsrc/main/java/com/study/designpatterns/min_kim/_2_factorymethod/App.java,7\6\768167264eead2dd29cf9876594ab0a2d8f8c52a
 |
 Lsrc/main/java/com/study/designpatterns/hyeongseok_choi/_1_singleton/App.java,9\9\99de45658c3633b7e0a2dba063761632f1dc71b1
 €
@@ -21,3 +19,7 @@ x
 Hsrc/main/java/com/study/designpatterns/yunjin_choi/_1_singleton/App.java,9\9\9952b92b94bcab623eba6e268ea59902d33c4d8e
 |
 Lsrc/main/java/com/study/designpatterns/yunjin_choi/_2_factorymethod/App.java,a\c\ac139a9da251e01f7ad7d91ab9c289b36aeb9d3e
+z
+Jsrc/main/java/com/study/designpatterns/min_kim/_1_singleton/Settings2.java,9\3\93a472b93c5584526134616202577cc6116da58d
+z
+Jsrc/main/java/com/study/designpatterns/min_kim/_1_singleton/Settings3.java,9\b\9be5c137a8295f393bac8abccd23d2ffe6d93025
