@@ -1,6 +1,8 @@
 package com.study.designpatterns.seungchan_moon._1_singleton;
 
-public class Settings_4 {
+import java.io.Serializable;
+
+public class Settings_4 implements Serializable {
     private Settings_4() {
     }
 
@@ -10,5 +12,9 @@ public class Settings_4 {
 
     public static Settings_4 getInstance() {
         return SettingsHolder.INSTANCE;
+    }
+
+    protected Object readResolve() {
+        return getInstance();
     }
 }

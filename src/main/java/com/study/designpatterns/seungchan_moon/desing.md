@@ -72,3 +72,66 @@ wiki
   - 메모리 비용과 성능상 이점을 높였지만 복잡하다.
 - [느린 초기화(lazy initialization)](./_1_singleton/Settings_4.java)
   - 권장하는 방법 중 하나.
+
+##### 싱글톤을 파괴하는 방법
+1. 리플렉션
+```java
+Settings_4 destroy = Settings_4.getInstance();
+
+Constructor<Settings_4> constructor = Settings_4.class.getDeclaredConstructor();
+constructor.setAccessible(true);
+Settings_4 settings_4 = constructor.newInstance();
+
+System.out.println(destroy == settings_4); 
+```
+
+- 방어법 
+
+리플렉션을 통해 싱글톤을 파괴하는 경우 막을 방법이 없지만 enum 을 사용하면 Constructor 코드 내에 enum object 생성의 경우 오류를 내도록 되어있다.
+```java
+ public T newInstance(Object ... initargs)
+        throws InstantiationException, IllegalAccessException,
+               IllegalArgumentException, InvocationTargetException
+    {
+        if (!override) {
+            Class<?> caller = Reflection.getCallerClass();
+            checkAccess(caller, clazz, clazz, modifiers);
+        }
+        if ((clazz.getModifiers() & Modifier.ENUM) != 0)
+            throw new IllegalArgumentException("Cannot reflectively create enum objects");
+        ConstructorAccessor ca = constructorAccessor;   // read volatile
+        if (ca == null) {
+            ca = acquireConstructorAccessor();
+        }
+        @SuppressWarnings("unchecked")
+        T inst = (T) ca.newInstance(initargs);
+        return inst;
+    }
+```
+[enum 을 이용해 싱글톤 생성](./_1_singleton/Settings_5.java)
+
+
+2. 직렬화와 역직렬화
+```java
+Settings_4 settings = Settings_4.getInstance();
+Settings_4 object = null;
+
+try (ObjectOutput objectOutput = new ObjectOutputStream(new FileOutputStream("settings.obj"))) {
+    objectOutput.writeObject(settings);
+}
+
+try (ObjectInput objectInput = new ObjectInputStream(new FileInputStream("settings.obj"))) {
+    object = (Settings_4) objectInput.readObject();
+}
+
+System.out.println(object == settings); 
+```
+
+- 방어법
+```java
+protected Object readResolve() {
+    return getInstance();    
+} 
+```
+
+    
