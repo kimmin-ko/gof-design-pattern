@@ -1,0 +1,19 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+x
+Hsrc/main/java/com/study/designpatterns/yunjin_choi/_1_singleton/App.java,9\9\9952b92b94bcab623eba6e268ea59902d33c4d8e
+‡
+Wsrc/main/java/com/study/designpatterns/yunjin_choi/_1_singleton/SynchronizedSample.java,6\2\62e2d498a1840fd47052d6bc327ed931724567c5
+‰
+Ysrc/main/java/com/study/designpatterns/yunjin_choi/_1_singleton/BasicSingletonSample.java,2\9\29829fb9a6ed2271324025f25d71eea75cc74087
+…
+Usrc/main/java/com/study/designpatterns/yunjin_choi/_1_singleton/ReflectionSample.java,b\c\bc6d4330f26bf023a5c09335e1dda6a73e2a91ff
+
+Osrc/main/java/com/study/designpatterns/yunjin_choi/_1_singleton/EnumSample.java,0\c\0c63400aa04056182c29b372e46077bb7149aad7
+A
+serialization.obj,5\3\53ab6adbb929989f9cacbb9d161b2968434e45d6
+—
+gsrc/main/java/com/study/designpatterns/yunjin_choi/_1_singleton/SerializationDeserializationSample.java,9\6\966eb5f4d5f66359dde98812aa957f9098404c47
+y
+Isrc/main/java/com/study/designpatterns/yunjin_choi/_1_singleton/README.md,d\a\da3cc98374e0ae5c4caa779481290e380fe21b51
