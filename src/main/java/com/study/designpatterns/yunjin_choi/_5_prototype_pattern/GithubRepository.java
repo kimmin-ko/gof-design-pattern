@@ -27,6 +27,4 @@ public class GithubRepository {
     public String getName() {
         return name;
     }
-
-
 }

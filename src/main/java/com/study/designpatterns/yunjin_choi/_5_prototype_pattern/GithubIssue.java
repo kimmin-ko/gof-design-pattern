@@ -10,7 +10,7 @@ package com.study.designpatterns.yunjin_choi._5_prototype_pattern;
  * @since 2022-04-12 오후 11:44
  */
 
-public class GithubIssue {
+public class GithubIssue implements Cloneable{
     private int id;
     private String title;
     private GithubRepository githubRepository;
@@ -36,5 +36,17 @@ public class GithubIssue {
 
     public String getUrl() {
         return String.format("%s/%s/%s/issues/%s", base, this.githubRepository.getUser(), this.githubRepository.getName(), id);
+    }
+
+//    @Override
+//    protected Object clone() throws CloneNotSupportedException {
+//        return super.clone();
+//    }
+
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        GithubRepository repository = new GithubRepository(this.githubRepository.getUser(), this.githubRepository.getName());
+        return new GithubIssue(this.id, this.title, repository);
     }
 }
