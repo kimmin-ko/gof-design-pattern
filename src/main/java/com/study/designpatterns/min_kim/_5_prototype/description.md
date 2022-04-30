@@ -1,13 +1,13 @@
 ### 객체 생성 패턴: 프로토타입 패턴 (Prototype Pattern)
 
 #### 프로토타입 패턴이란?
-- 기존 인스턴스를 복제하여 새로운 인스턴스를 만드는 방법
+- 기존 인스턴스를 복제하여 새로운 인스턴스를 만드는 방법이다.
 - 복제 기능을 가지고 있는 기존 인스턴스를 프로토 타입으로 사용해 새 인스턴스를 만들 수 있다.
 - 기존 인스턴스를 만들 때 DB나 다른 프로세스와 네트워크 통신을 통해 가져온 데이터를 기반으로 인스턴스를 생성해야할 때 유용하다.
   - 위의 경우 처럼 리소스가 많이 필요한 기존 인스턴스를 복사해서 새 인스턴스를 생성하면 네트워크 통신에 필요한 리소스와 시간을 줄일 수 있다.
 
 #### 프로토타입 패턴 적용
-- 프로토 타입을 적용하면 기존 issue 인스턴스를 복사해서 새로운 인스턴스를 생성할 수 있다.
+- 먼저 생성되어 있던 기존 issue 인스턴스를 복사해서 새로운 인스턴스를 생성할 수 있다.
 - 기존 인스턴스를 clone 했을 때 레퍼런스가 다르기 때문에 동일성은 만족하지 않지만 데이터는 같기 때문에 동등성은 만족해야 한다.
 
 
@@ -64,8 +64,8 @@
     @Override
     public Object clone() throws CloneNotSupportedException {
         GithubRepository repository = new GithubRepository();
-        repository.setUser("hi");
-        repository.setName("design-pattern-1");
+        repository.setUser(this.repository.getUsr());
+        repository.setName(this.repository.getName());
 
         GithubIssue issue = new GithubIssue(repository);
         issue.setId(this.id);

@@ -1,4 +1,4 @@
-package me.whiteship.designpatterns._01_creational_patterns._02_factory_method._02_after;
+package com.study.designpatterns.geunho_hong._2_factorymethod._02_after;
 
 public class Client {
 
