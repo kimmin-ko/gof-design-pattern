@@ -1,7 +1,7 @@
-package com.study.designpatterns.min_kim._3_abstract_factory_car;
+package com.study.designpatterns.min_kim._3_abstract_factory._car_;
 
-import com.study.designpatterns.min_kim._3_abstract_factory_car.car.Car;
-import com.study.designpatterns.min_kim._3_abstract_factory_car.carfactory.CarFactory;
+import com.study.designpatterns.min_kim._3_abstract_factory._car_.car.Car;
+import com.study.designpatterns.min_kim._3_abstract_factory._car_.carfactory.CarFactory;
 
 public class Customer {
 

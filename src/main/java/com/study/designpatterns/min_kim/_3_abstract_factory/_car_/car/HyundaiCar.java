@@ -1,8 +1,8 @@
-package com.study.designpatterns.min_kim._3_abstract_factory_car.car;
+package com.study.designpatterns.min_kim._3_abstract_factory._car_.car;
 
-import com.study.designpatterns.min_kim._3_abstract_factory_car.car.engine.Engine;
-import com.study.designpatterns.min_kim._3_abstract_factory_car.car.logo.Logo;
-import com.study.designpatterns.min_kim._3_abstract_factory_car.car.wheel.Wheel;
+import com.study.designpatterns.min_kim._3_abstract_factory._car_.car.engine.Engine;
+import com.study.designpatterns.min_kim._3_abstract_factory._car_.car.logo.Logo;
+import com.study.designpatterns.min_kim._3_abstract_factory._car_.car.wheel.Wheel;
 
 public class HyundaiCar extends Car {
 
