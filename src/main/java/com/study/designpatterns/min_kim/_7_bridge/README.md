@@ -62,8 +62,7 @@ public interface Skin {
 
 public class DefaultChampion implements Champion {
 
-    private final Skin skin; <--
-    Implementation 연결
+    private final Skin skin; <-- Implementation 연결
     private final String name;
 
     public DefaultChampion(Skin skin, String name) {

@@ -22,6 +22,6 @@ public class App {
 
         TourDirector director = new TourDirector(new DefaultTourBuilder());
         TourPlan  tourPlan = director.cancunTrip();
-        TourPlan tourPlan1 = director.longBeachTrip()
+        TourPlan tourPlan1 = director.longBeachTrip();
     }
 }

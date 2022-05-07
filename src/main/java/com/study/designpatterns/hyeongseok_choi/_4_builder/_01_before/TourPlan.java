@@ -72,4 +72,8 @@ public class TourPlan {
     public void setPlans(List<DetailPlan> plans) {
         this.plans = plans;
     }
+
+    public void addPlan(int i, String s) {
+
+    }
 }

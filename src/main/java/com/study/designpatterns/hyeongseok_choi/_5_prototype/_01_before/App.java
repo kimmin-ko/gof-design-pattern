@@ -14,9 +14,9 @@ public class App {
         System.out.println(url);
 
 //        매번 이슈를 새로 만들기 복잡하므로 클론을 이용하고 싶음
-        GithubIssue githubIssue2 = githubIssue.clone();
-        githubIssue.setId(2);
-        githubIssue.setTitle("2주차 과제 : ...");
+//        GithubIssue githubIssue2 = githubIssue.clone();
+//        githubIssue.setId(2);
+//        githubIssue.setTitle("2주차 과제 : ...");
 //        TODO clone != githubIssue
 //        TODO clone.equals(githubIssue) => true
     }
