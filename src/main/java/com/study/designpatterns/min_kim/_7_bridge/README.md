@@ -151,6 +151,16 @@ public class DriverManager {
 ![](../../../../../../resources/static/_7_bridge/tm.png)
 
 - 스프링은 TransactionManager를 컴포지션으로 사용하여 Transaction을 걸어주는 TransactionTemplate을 제공한다.
+
+```java
+public class TransactionTemplate extends DefaultTransactionDefinition
+		implements TransactionOperations, InitializingBean {
+  
+      @Nullable
+      private PlatformTransactionManager transactionManager;
+}
+```
+
 - PlatformTransactionManager의 코드가 변경되거나 확장되어도 TransactionTemplate는 영향이 없고, 독립적으로 클라이언트에게 동일한 인터페이스를 제공할 수 있다.
 
 ```java
