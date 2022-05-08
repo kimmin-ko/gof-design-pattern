@@ -145,8 +145,9 @@ public class AccountUserDetailsService implements UserDetailsService {
         return new AccountUserDetails(account);
     }
 }
-
 ```
+
+- 결과적으로 어댑터 패턴을 적용해서 security 패키지의 공통적인 코드와 애플리케이션에 독립적인 코드가 연결되었다. 
 
 ---
 
