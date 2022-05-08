@@ -1,4 +1,4 @@
-package me.whiteship.designpatterns._01_creational_patterns._01_singleton;
+package com.study.designpatterns.geunho_hong._1_singleton;
 
 /**
  * private 생성자와 public static 메소드를 사용하는 방법

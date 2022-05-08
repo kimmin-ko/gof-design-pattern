@@ -1,4 +1,4 @@
-package me.whiteship.designpatterns._01_creational_patterns._01_singleton;
+package com.study.designpatterns.geunho_hong._1_singleton;
 
 /**
  * static inner 클래스 홀더

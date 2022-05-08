@@ -1,9 +1,9 @@
 package com.study.designpatterns.min_kim._2_factory_method;
 
-import com.study.designpatterns.min_kim._2_factorymethod._02_after.ApplicationConfig;
-import com.study.designpatterns.min_kim._2_factorymethod._02_after.Blackship;
-import com.study.designpatterns.min_kim._2_factorymethod._02_after.Ship;
-import com.study.designpatterns.min_kim._2_factorymethod._02_after.Whiteship;
+import com.study.designpatterns.min_kim._2_factory_method._02_after.ApplicationConfig;
+import com.study.designpatterns.min_kim._2_factory_method._02_after.Blackship;
+import com.study.designpatterns.min_kim._2_factory_method._02_after.Ship;
+import com.study.designpatterns.min_kim._2_factory_method._02_after.Whiteship;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.BeanFactory;

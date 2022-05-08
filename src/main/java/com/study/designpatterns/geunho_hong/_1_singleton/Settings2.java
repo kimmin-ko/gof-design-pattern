@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package com.study.designpatterns.geunho_hong._1_singleton;
 
 =======
 package me.whiteship.designpatterns._01_creational_patterns._01_singleton;
+=======
+package com.study.designpatterns.geunho_hong._1_singleton;
+>>>>>>> 23ed9ed50c5b34d04fd95609a2ef4f99803482d7
 
 /**
  * synchronized 사용해서 동기화 처리
