@@ -1,4 +1,4 @@
-package com.study.designpatterns.seungchan_moon._8_decorator.java;
+package com.study.designpatterns.seungchan_moon._9_decorator.java;
 
 import java.awt.print.Book;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.study.designpatterns.seungchan_moon._8_decorator.before;
+package com.study.designpatterns.seungchan_moon._9_decorator.before;
 
 public class SpamFilteringCommentService extends CommentService {
 

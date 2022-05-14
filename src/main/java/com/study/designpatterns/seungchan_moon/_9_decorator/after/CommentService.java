@@ -1,4 +1,4 @@
-package com.study.designpatterns.seungchan_moon._8_decorator.after;
+package com.study.designpatterns.seungchan_moon._9_decorator.after;
 
 public interface CommentService {
 
