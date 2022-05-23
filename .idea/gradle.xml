@@ -8,15 +8,6 @@
         <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <option name="gradleJvm" value="#JAVA_HOME" />
-=======
-        <option name="gradleJvm" value="11" />
->>>>>>> cd82f7b2841a4102462317a5a3c5d09dd1c8fc85
-=======
-        <option name="gradleJvm" value="openjdk-11.0.2" />
->>>>>>> 23ed9ed50c5b34d04fd95609a2ef4f99803482d7
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />

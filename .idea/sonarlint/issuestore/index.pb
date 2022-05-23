@@ -245,8 +245,6 @@ Qsrc/main/java/com/study/designpatterns/min_kim/_6_adapter/AccountUserDetails.ja
 Xsrc/main/java/com/study/designpatterns/min_kim/_6_adapter/AccountUserDetailsService.java,7\2\7250924f4ae63b4e6ff65d4facbc9b09e711c7e4
 
 Qsrc/main/java/com/study/designpatterns/min_kim/_6_adapter/java/AdapterInJava.java,3\5\358cc2ef25d05d428d30f9f664e23c566e6ecd66
-x
-Hsrc/main/java/com/study/designpatterns/geunho_hong/_1_singleton/App.java,3\7\37305fc897a72c26e8792a8f770ef6294de7a9f4
 Œ
 \src/main/java/com/study/designpatterns/geunho_hong/_2_factorymethod/_02_after/Blackship.java,1\c\1c2c57f2d6bae4bc41e8870d9f9ad9576039c049
 “
@@ -261,8 +259,6 @@ esrc/main/java/com/study/designpatterns/geunho_hong/_2_factorymethod/_02_after/D
 Tsrc/main/java/com/study/designpatterns/min_kim/_6_adapter/security/LoginHandler.java,2\e\2ecc038a67547257fa688e760f3734ec6a06f63b
 ~
 Nsrc/main/java/com/study/designpatterns/geunho_hong/_1_singleton/Settings1.java,f\1\f1f5c55edd5d31577650c6a3db97f28a4c194f92
-~
-Nsrc/main/java/com/study/designpatterns/geunho_hong/_1_singleton/Settings2.java,b\d\bd0fe0b737843e3e1264b7f694161087aacefd6b
 ~
 Nsrc/main/java/com/study/designpatterns/geunho_hong/_1_singleton/Settings3.java,e\e\ee7442f0c7a943aabb678b2f930fa9fde47ed065
 ~
@@ -485,8 +481,6 @@ w
 G.idea/sonarlint/issuestore/8/f/8f0a84f3bf0831360d0c6f3e3f81303b08853715,b\0\b0dc12eed3ca4c3eb181409a231bab73fd270ea6
 w
 G.idea/sonarlint/issuestore/8/1/81337833eb277f07baa92e502e2d1cd305dfe2c6,7\e\7eaaa1a231aecbfc6e734289eeff9d96ac6a2e6a
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 w
 G.idea/sonarlint/issuestore/c/1/c184f87203666821c4a1e88d9a2e49b769c0fa27,2\b\2b18ee5429d6aa0a3e10611f4608922c72d623ab
 w
@@ -497,8 +491,6 @@ w
 G.idea/sonarlint/issuestore/9/a/9a9f6985e988d9a62939686c0a99d424f598da7f,a\8\a89b3b7d6140c6aa78b7144d079a1ce07c5934f8
 w
 G.idea/sonarlint/issuestore/f/2/f28add94336efd470114491d95ae2a7cf3a0e592,e\a\eaa1348e6efb30170f1ce6d5070a0478599d513b
-w
-G.idea/sonarlint/issuestore/7/c/7c3016176c420186cfd87692a1ecb1fa8808d335,b\b\bb4131b385d66a36f6338b9c9ea4c7c124f7ad74
 w
 G.idea/sonarlint/issuestore/1/c/1cd704aed435032635d17d9833e62ae88e498802,d\6\d63e79a8e72139a66c22fa28dda85776b803a982
 w
@@ -525,8 +517,6 @@ w
 G.idea/sonarlint/issuestore/7/2/7250924f4ae63b4e6ff65d4facbc9b09e711c7e4,c\4\c4cdbf0a3ea08e70df617683abb0d3cfbe77d263
 w
 G.idea/sonarlint/issuestore/9/3/931d5dea56b0042f18c6d7c8eb3ff243cca10662,9\1\91ccdafee535be53f7164243f8971feb889c6602
-w
-G.idea/sonarlint/issuestore/b/d/bd0fe0b737843e3e1264b7f694161087aacefd6b,4\f\4f19a2e65ef4d26f3c819a07e436c4618bce0d34
 w
 G.idea/sonarlint/issuestore/1/7/171745334e7cbcf4dd0f920ef5292fa2cfcd4aa7,1\c\1cb758e620575fe30f870ae070c28f39da35421b
 w
@@ -603,3 +593,9 @@ Osrc/main/java/com/study/designpatterns/min_kim/_8_composite/_1_before/Item.java
 Nsrc/main/java/com/study/designpatterns/min_kim/_8_composite/_2_after/Item.java,5\5\55edcd806037f7a371fdfe317c06202f75b61cf2
 Š
 Zsrc/main/java/com/study/designpatterns/hyeongseok_choi/_4_builder/_01_before/TourPlan.java,7\8\7834dccbcb1c5e96977add8600e9c77c04e25661
+…
+Usrc/main/java/com/study/designpatterns/min_kim/_7_bridge/_3_java_and_spring/Exam.java,9\3\93d82d812479bc9c3cf574eb0c4245685c3582c1
+
+_src/main/java/com/study/designpatterns/min_kim/_7_bridge/_3_java_and_spring/BridgeInSpring.java,2\b\2b066f8c5d3e535154ba52b14028293238e1cf15
+…
+Usrc/main/java/com/study/designpatterns/min_kim/_8_composite/_3_java/SwingExample.java,c\c\cc60c2db49b541db91c0d39742c3648d9984b438
