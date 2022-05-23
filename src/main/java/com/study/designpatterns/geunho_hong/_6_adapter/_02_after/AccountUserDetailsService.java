@@ -1,7 +1,7 @@
 package com.study.designpatterns.geunho_hong._6_adapter._02_after;
 
-import me.whiteship.designpatterns._02_structural_patterns._06_adapter._02_after.security.UserDetails;
-import me.whiteship.designpatterns._02_structural_patterns._06_adapter._02_after.security.UserDetailsService;
+import com.study.designpatterns.geunho_hong._6_adapter._02_after.security.UserDetails;
+import com.study.designpatterns.geunho_hong._6_adapter._02_after.security.UserDetailsService;
 
 public class AccountUserDetailsService implements UserDetailsService {
 

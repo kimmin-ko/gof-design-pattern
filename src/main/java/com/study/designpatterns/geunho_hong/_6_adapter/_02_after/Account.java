@@ -1,7 +1,5 @@
 package com.study.designpatterns.geunho_hong._6_adapter._02_after;
 
-import me.whiteship.designpatterns._02_structural_patterns._06_adapter._02_after.security.UserDetails;
-
 public class Account {
 
     private String name;
