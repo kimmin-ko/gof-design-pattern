@@ -113,8 +113,6 @@ Lsrc/main/java/com/study/designpatterns/min_kim/_4_builder/_02_after/App.java,0
 Qsrc/main/java/com/study/designpatterns/min_kim/_5_prototype/GithubRepository.java,d\4\d435bd4dd77e2c67a1cb4dbdf91839d9fdfaca6b
 Å
 Qsrc/main/java/com/study/designpatterns/yunjin_choi/_5_prototype_pattern/README.md,1\4\144fb1cbce16e8f892cdea029afd9b57a982134d
-o
-?src/main/java/com/study/designpatterns/seungchan_moon/desing.md,c\6\c664935dc354b97f0b50ca1ad1d20307e790f9d6
 
 Osrc/main/java/com/study/designpatterns/seungchan_moon/_5_prototype/prototype.md,0\3\0318aa0fd275bcf9fdf9cac28ac11c67bb700ae6
 {
@@ -601,8 +599,6 @@ _src/main/java/com/study/designpatterns/min_kim/_7_bridge/_3_java_and_spring/Bri
 Usrc/main/java/com/study/designpatterns/min_kim/_8_composite/_3_java/SwingExample.java,c\c\cc60c2db49b541db91c0d39742c3648d9984b438
 u
 Esrc/main/java/com/study/designpatterns/min_kim/_8_composite/README.md,d\6\d6d13c619420290060fd6cc0a412837f8a753fcf
-r
-Bsrc/main/java/com/study/designpatterns/min_kim/_7_bridge/README.md,7\e\7eaf8e47ba4f9c097439b71e14017154f235da5e
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 Ñ
@@ -651,8 +647,20 @@ nsrc/main/java/com/study/designpatterns/min_kim/_9_decorator/_1_before/SpamFilte
 bsrc/main/java/com/study/designpatterns/min_kim/_9_decorator/_2_after/TrimmingCommentDecorator.java,f\0\f085efecdd75d6a252441ea790473c4cbffd83c8
 ë
 asrc/main/java/com/study/designpatterns/min_kim/_9_decorator/_1_before/TrimmingCommentService.java,5\b\5b7d9b3d2c6032c267e87cc8ff5ee668534c797a
-u
-Esrc/main/java/com/study/designpatterns/min_kim/_9_decorator/README.md,e\9\e93f330b5fa6612ccee4fa14802f0dcac71848ce
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+
+Osrc/main/java/com/study/designpatterns/min_kim/_10_facade/_1_before/Client.java,6\1\61c7f6f26812bc2e414b9d7be30759a731b19c57
+Ñ
+Tsrc/main/java/com/study/designpatterns/min_kim/_10_facade/_2_after/EmailMessage.java,2\d\2dfbcfb99d647d2dceffefa0b1e55e80f07397bb
+É
+Ssrc/main/java/com/study/designpatterns/min_kim/_10_facade/_2_after/EmailSender.java,1\c\1c1a6f6a8174ce72136098e923d96d297d792f9c
+Ö
+Usrc/main/java/com/study/designpatterns/min_kim/_10_facade/_2_after/EmailSettings.java,2\c\2c6ffc2e53d761418d651beb5763858047569f62
+s
+Csrc/main/java/com/study/designpatterns/min_kim/_10_facade/READMD.md,7\a\7ab2c74bc1e3528236093992e6d425e2b64c3c0d
+~
+Nsrc/main/java/com/study/designpatterns/min_kim/_10_facade/_2_after/Client.java,6\8\68f0fc84d9961198653ca4806cce60cf20c24dc2
+r
+Bsrc/main/java/com/study/designpatterns/min_kim/_7_bridge/README.md,7\e\7eaf8e47ba4f9c097439b71e14017154f235da5e
