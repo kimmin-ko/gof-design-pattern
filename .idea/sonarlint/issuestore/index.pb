@@ -343,8 +343,6 @@ Nsrc/test/java/com/study/designpatterns/min_kim/_1_singleton/Settings4Test.java
 Nsrc/test/java/com/study/designpatterns/min_kim/_1_singleton/Settings5Test.java,d\8\d833f995bb717d57833cc6ebf04f29c0be918596
 u
 Esrc/main/java/com/study/designpatterns/min_kim/_5_prototype/README.md,f\9\f913274c47ebcf1baf1c8a4d1d5eb71e9834bc27
-
-Qsrc/test/java/com/study/designpatterns/min_kim/_2_factory_method/ExampleTest.java,c\2\c23b93f9ebcc536ba588e43d85ff11e65432ae65
 s
 Csrc/main/java/com/study/designpatterns/min_kim/_6_adapter/README.md,7\e\7e3d9d87790f752db8ae9a7dadb73e7d2f2d0b78
 w
