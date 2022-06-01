@@ -1,6 +1,6 @@
 package com.study.designpatterns.geunho_hong._7_bridge._02_after;
 
-import me.whiteship.designpatterns._02_structural_patterns._07_bridge._01_before.Champion;
+import com.study.designpatterns.geunho_hong._7_bridge._01_before.Champion;
 
 public class DefaultChampion implements Champion {
 
