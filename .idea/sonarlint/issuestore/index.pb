@@ -593,8 +593,6 @@ _src/main/java/com/study/designpatterns/min_kim/_7_bridge/_3_java_and_spring/Bri
 Usrc/main/java/com/study/designpatterns/min_kim/_8_composite/_3_java/SwingExample.java,c\c\cc60c2db49b541db91c0d39742c3648d9984b438
 u
 Esrc/main/java/com/study/designpatterns/min_kim/_8_composite/README.md,d\6\d6d13c619420290060fd6cc0a412837f8a753fcf
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 „
 Tsrc/main/java/com/study/designpatterns/geunho_hong/_6_adapter/_02_after/Account.java,9\d\9dc033b7456f234c8fdc546b8f63e86bbc6e6d87
 
@@ -792,8 +790,6 @@ Tsrc/main/java/com/study/designpatterns/seungchan_moon/_15_interpreter/interpret
 ]src/main/java/com/study/designpatterns/min_kim/_15_interpreter/_1_before/PostfixNotation.java,2\2\22a1eac84436191391fffc45c2e92bafe2cc7cc7
 x
 Hsrc/main/java/com/study/designpatterns/min_kim/_15_interpreter/README.md,5\f\5f320e23385cbef83b1fb75471fa1e8168749238
-t
-Dsrc/main/java/com/study/designpatterns/min_kim/_14_command/README.md,4\7\47dac4e1791f6e30cc16d5de303b68d7f309e174
 €
 Psrc/main/java/com/study/designpatterns/min_kim/_15_interpreter/_2_after/App.java,3\4\34ba9aedba38c6573b93ee3887a9afa63e2af2e8
 ƒ
