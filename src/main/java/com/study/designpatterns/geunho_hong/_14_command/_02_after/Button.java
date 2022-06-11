@@ -1,7 +1,7 @@
 package com.study.designpatterns.geunho_hong._14_command._02_after;
 
-import me.whiteship.designpatterns._03_behavioral_patterns._14_command._01_before.Game;
-import me.whiteship.designpatterns._03_behavioral_patterns._14_command._01_before.Light;
+import com.study.designpatterns.geunho_hong._14_command._01_before.Game;
+import com.study.designpatterns.geunho_hong._14_command._01_before.Light;
 
 import java.util.Stack;
 
