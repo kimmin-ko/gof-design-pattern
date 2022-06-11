@@ -1,6 +1,6 @@
 > ### 행동 관련 디자인 패턴
 
-## 책임 연쇄 패턴 ( Fly Weight Pattern )
+## 책임 연쇄 패턴 ( Chain Of Responsibility Pattern )
 
 ---
 
