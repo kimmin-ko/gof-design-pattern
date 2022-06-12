@@ -1,0 +1,12 @@
+package com.study.designpatterns.seungchan_moon._8_composite.after;
+
+public class Character implements Component {
+
+    private Bag bag;
+
+    @Override
+    public int getPrice() {
+        return bag.getPrice();
+    }
+
+}
