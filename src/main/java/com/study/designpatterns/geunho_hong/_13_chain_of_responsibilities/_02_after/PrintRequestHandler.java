@@ -1,6 +1,7 @@
 package com.study.designpatterns.geunho_hong._13_chain_of_responsibilities._02_after;
 
-import me.whiteship.designpatterns._03_behavioral_patterns._13_chain_of_responsibilities._01_before.Request;
+
+import com.study.designpatterns.geunho_hong._13_chain_of_responsibilities._01_before.Request;
 
 public class PrintRequestHandler extends RequestHandler {
 
