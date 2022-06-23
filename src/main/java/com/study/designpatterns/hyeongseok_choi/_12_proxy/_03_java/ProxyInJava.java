@@ -1,7 +1,7 @@
 package com.study.designpatterns.hyeongseok_choi._12_proxy._03_java;
 
-import me.whiteship.designpatterns._02_structural_patterns._12_proxy._02_after.DefaultGameService;
-import me.whiteship.designpatterns._02_structural_patterns._12_proxy._02_after.GameService;
+import com.study.designpatterns.hyeongseok_choi._12_proxy._02_after.DefaultGameService;
+import com.study.designpatterns.hyeongseok_choi._12_proxy._02_after.GameService;
 
 import java.lang.reflect.Proxy;
 

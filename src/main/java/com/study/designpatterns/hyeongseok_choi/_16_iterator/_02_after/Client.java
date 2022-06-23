@@ -1,6 +1,6 @@
 package com.study.designpatterns.hyeongseok_choi._16_iterator._02_after;
 
-import me.whiteship.designpatterns._16_iterator._01_before.Post;
+import com.study.designpatterns.hyeongseok_choi._16_iterator._01_before.Post;
 
 import java.util.Iterator;
 import java.util.List;

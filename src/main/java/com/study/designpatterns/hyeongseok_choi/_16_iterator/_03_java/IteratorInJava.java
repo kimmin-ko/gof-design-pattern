@@ -1,7 +1,7 @@
 package com.study.designpatterns.hyeongseok_choi._16_iterator._03_java;
 
-import me.whiteship.designpatterns._16_iterator._01_before.Post;
-import me.whiteship.designpatterns._16_iterator._02_after.Board;
+import com.study.designpatterns.hyeongseok_choi._16_iterator._01_before.Post;
+import com.study.designpatterns.hyeongseok_choi._16_iterator._02_after.Board;
 
 import javax.xml.namespace.QName;
 import javax.xml.stream.XMLEventReader;

@@ -1,6 +1,6 @@
 package com.study.designpatterns.hyeongseok_choi._18_memento._03_java;
 
-import me.whiteship.designpatterns._18_memento._01_before.Game;
+import com.study.designpatterns.hyeongseok_choi._18_memento._01_before.Game;
 
 import java.io.*;
 

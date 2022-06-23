@@ -1,7 +1,7 @@
 package com.study.designpatterns.hyeongseok_choi._14_command._03_java;
 
-import me.whiteship.designpatterns._03_behavioral_patterns._14_command._01_before.Game;
-import me.whiteship.designpatterns._03_behavioral_patterns._14_command._01_before.Light;
+import com.study.designpatterns.hyeongseok_choi._14_command._01_before.Game;
+import com.study.designpatterns.hyeongseok_choi._14_command._01_before.Light;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
