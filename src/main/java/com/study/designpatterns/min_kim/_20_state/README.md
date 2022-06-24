@@ -10,7 +10,7 @@
 
 ### 역할
 
-<img src="uml.png" alt="uml" width="500"/>
+<img src="image0.png" alt="uml" width="500"/>
 
 - Context
   - 상태를 가지고 있고, 상태에 따라 행동이 달라져야 하는 객체
