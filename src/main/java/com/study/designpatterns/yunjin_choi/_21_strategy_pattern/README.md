@@ -38,3 +38,14 @@
 
  - 복잡도가 증가한다.
  - 클라이언트 코드가 구체적인 전략을 알아야 한다.
+
+---
+
+Java, Spring 에 적용된 전략패턴
+
+ - Comparator ( Java )
+ - Spring 에서는 Interface를 제공한다면 대부분이 다 전략 패턴이다
+   - 대표적으로 ApplicationContext 
+ - BeanDefinitionParser
+ - PlatformTransactionManager
+ - CacheManager
