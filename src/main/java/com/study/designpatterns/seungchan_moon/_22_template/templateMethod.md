@@ -38,3 +38,7 @@ public class MyHello extends HttpServlet {
 
 - configure();
 - JdbcTemplate
+  - execute();
+  - query();
+- RestTemplate
+  - exChange() -> execute() > doExecute()
