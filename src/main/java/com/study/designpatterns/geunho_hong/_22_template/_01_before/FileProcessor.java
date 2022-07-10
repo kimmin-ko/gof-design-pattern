@@ -1,13 +1,13 @@
-package com.study.designpatterns.hyeongseok_choi._22_template._01_before;
+package com.study.designpatterns.geunho_hong._22_template._01_before;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class MultiplyFileProcessor {
+public class FileProcessor {
 
     private String path;
-    public MultiplyFileProcessor(String path) {
+    public FileProcessor(String path) {
         this.path = path;
     }
 
@@ -16,7 +16,7 @@ public class MultiplyFileProcessor {
             int result = 0;
             String line = null;
             while((line = reader.readLine()) != null) {
-                result *= Integer.parseInt(line);
+                result += Integer.parseInt(line);
             }
             return result;
         } catch (IOException e) {
