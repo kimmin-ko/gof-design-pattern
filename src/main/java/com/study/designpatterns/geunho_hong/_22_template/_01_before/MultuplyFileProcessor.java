@@ -1,13 +1,13 @@
-package com.study.designpatterns.hyeongseok_choi._22_template._01_before;
+package com.study.designpatterns.geunho_hong._22_template._01_before;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class MultiplyFileProcessor {
+public class MultuplyFileProcessor {
 
     private String path;
-    public MultiplyFileProcessor(String path) {
+    public MultuplyFileProcessor(String path) {
         this.path = path;
     }
 
